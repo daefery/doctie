@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+}
+
+@media only screen and (min-width: 768px){
+  #navBar{
+      padding-left: 10%;
+      padding-right: 10%;
+  }
+}
+
+@media only screen and (max-width: 600px){
+  .css-gcwpim{
+    grid-template-columns: none !important;
+  }
+
+  .css-c4zg8{
+    display: block !important;
+  }
+
+  .css-jkf8u9{
+    display: block !important;
+  }
+
+  .css-khmk7y{
+    display: inline-block !important;
+  }
+
+  .css-n0a326{
+    display: block !important;
+  }
+}
