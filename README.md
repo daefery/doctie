@@ -47,6 +47,11 @@ this package is for ui kit on the apps
 - Clean Code
 - Easy to use and maintenance
 
+### `react router v6`
+
+[Source](https://reactrouter.com/)
+- Easy navigation
+
 ## Other Section
 
 ### `Potential Improvement`
