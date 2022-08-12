@@ -2,6 +2,14 @@
 
 ## Setup Project
 
+### `Link`
+https://doctie.natakraf.com/
+
+### `Login Credential`
+
+- username : patient
+- password : 12345
+
 ### `Create .env`
 
 Contains 2 variables\
