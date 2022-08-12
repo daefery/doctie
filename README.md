@@ -1,23 +1,21 @@
-# Getting Started with Create React App
+# Getting Started with doctie
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Setup Project
 
-## Available Scripts
+### `Create .env`
 
-In the project directory, you can run:
+Contains 2 variables\
+REACT_APP_API_URL=['https://fe-assignment-api.herokuapp.com/'](https://fe-assignment-api.herokuapp.com/) \
+REACT_APP_TOKEN='d3cd7486-fc8c-48a6-aa5e-5e5f9c1c94a6'
 
-### `npm start`
+### `npm install`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### `npm start`
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Launches the test runner in the interactive watch mode.
 
 ### `npm run build`
 
@@ -27,20 +25,40 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Choice of Package
+### `chakra-ui`
 
-### `npm run eject`
+[Source](https://chakra-ui.com/)\
+Contains some dependencies package such as <b>emotion</b> and <b>framer-motion</b>\
+this package is for ui kit on the apps
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### `typescript`
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+[Source](https://www.typescriptlang.org/)
+- Safer Code : can help to static type-checking\
+- Clean Code
+- Easy to use and maintenance
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Other Section
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### `Potential Improvement`
 
-## Learn More
+- Sign Up feature
+- Doctor portal feature : doctor can access the app and checking all the appointment request from patient and they can update the schedule or update their info
+- Doctor Info can be modified to add some extra object such as doctor by category(Dental or General) and other related info instead of simple one
+- Patient Profile : can be have medical history, so the doctor can see through that info using the app
+- Doctor List & Booking List endpoints can using pagination for performance matter
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### `Assumptions`
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- When booking, patient can using login info or custom patient this can be used when booking for someone
+- Calender form : to display date and list of available time for patient to choose
+- Putting appointment count on user dropdown profile
+- Creating appointment feature : user can see list of appointment and can cancel each item
+- Adding login feature
+- Putting some section on landing page
+
+### `Testing`
+- Checking all pages and the components
+- Using snapshot to make sure the UI and style implemented well
+- End to end testing for all features such as Browse Doctor, Booking, See Appointment & Login
