@@ -3,7 +3,8 @@
 ## Setup Project
 
 ### `Link`
-https://doctie.natakraf.com/
+https://doctie.natakraf.com/ \
+https://62f60b7c86007d0e8bcbb9ab--capable-piroshki-ba2ce4.netlify.app/
 
 ### `Login Credential`
 
