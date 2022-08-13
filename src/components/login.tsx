@@ -26,7 +26,7 @@ export default function Login(props: LoginVoid) {
     const [uname, setUname] = useState("")
     const [pass, setPass] = useState("")
     const toast = useToast()
-    const {authenticated, setAuthenticated} = useContext(AuthContext)
+    const {authenticated, setAuthenticated, setAuthData} = useContext(AuthContext)
 
     const login = async() =>{
         let request = {
@@ -46,6 +46,7 @@ export default function Login(props: LoginVoid) {
         }else{
             toast.closeAll()
             setAuthenticated(true)
+            setAuthData(response)
             props.closeModal(response.name)
         }
     }
