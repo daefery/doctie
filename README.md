@@ -40,6 +40,9 @@ Your app is ready to be deployed!
 [Source](https://chakra-ui.com/)\
 Contains some dependencies package such as <b>emotion</b> and <b>framer-motion</b>\
 this package is for ui kit on the apps
+- clean ui
+- customize components
+- light
 
 ### `typescript`
 
