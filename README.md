@@ -65,6 +65,8 @@ this package is for ui kit on the apps
 - Doctor Info can be modified to add some extra object such as doctor by category(Dental or General) and other related info instead of simple one
 - Patient Profile : can be have medical history, so the doctor can see through that info using the app
 - Doctor List & Booking List endpoints can using pagination for performance matter
+- Multi language using localization because the user might be coming from different region
+- theme switch, web have 2 themes light and dark
 
 ### `Assumptions`
 
